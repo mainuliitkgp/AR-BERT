@@ -1,15 +1,15 @@
 # AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations
 Code for our WWW'22 paper: "AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations"
 
-## Citation
+## Requirement:
+* item Python 3.6.8
+* item Tensorflow-gpu 1.15.0
+* item Spacy 2.3.2
+* item Snappy 1.1.7 (http://snap.stanford.edu/snappy/index.html)
 
-If you use this work, please cite our paper using the following Bibtex tag:
+## Infrastructure:
+* item Quadro P5000 Single core GPU (16278MiB)
+* item CUDA version: 10.0
 
-    @article{DBLP:journals/corr/abs-2108-11656t,
-       title={Scalable End-to-End Training of Knowledge Graph-Enhanced Aspect Embedding
-               for Aspect Level Sentiment Analysis},
-       author={Sk Mainul Islam and
-               Sourangshu Bhattacharya},
-       journal={arXiv preprint arXiv:2108.11656},
-       year={2021}
-    }
+## Usage:
+
