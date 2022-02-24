@@ -2,14 +2,14 @@
 Codebase for our WWW'22 paper: "AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations"
 
 ## Requirement:
-* item Python 3.6.8
-* item Tensorflow-gpu 1.15.0 (See suitable tensorflow 1.x GPU version based on your system CUDA: https://www.tensorflow.org/install/source#gpu)
-* item Spacy 2.3.2
-* item Snappy 1.1.7 (http://snap.stanford.edu/snappy/index.html)
+* Python 3.6.8
+* Tensorflow-gpu 1.15.0 (See suitable tensorflow 1.x GPU version based on your system CUDA: https://www.tensorflow.org/install/source#gpu)
+* Spacy 2.3.2
+* Snappy 1.1.7 (http://snap.stanford.edu/snappy/index.html)
 
 ## Infrastructure:
-* item Quadro P5000 Single core GPU (16278MiB)
-* item CUDA version: 10.0
+* Quadro P5000 Single core GPU (16278MiB)
+* CUDA version: 10.0
 
 ## Usage:
 Please follow the follwing steps sequentially (as mentioned in teh paper also)
