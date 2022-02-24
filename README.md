@@ -75,6 +75,35 @@ Go to folder: /src/two_level_aspect_entity_embedding_generation/
   ```
   
   
+## 3. ALSC:
+Go to folder /src/alsc/
+
+  ### 3.1. AR-TNET:
+  ```
+  cd ./ar-tnet/
+  python main_no_split_lstm_after_cpt_first_and_last_hidden_reshape_concat_GraphSAGE.py \
+  -ds_name 14semeval_rest \
+  -connection_type AS \
+  ```
+  Change the parameter values based on the dataset name [14semeval_laptop/14semeval_rest/twitter] and connection type [AS/LF]
+  
+  ### 3.2. AR-BERT:
+  ```
+  cd ./ar-bert/bert_tensorflow/
+  python run_classifier_alsc.py \
+  --data_dir path of the raw data file (.xml) \
+  --task_name SemEval2014AtscProcessor \
+  --vocab_file path of the bert-base-uncased vocab file\
+  --bert_config_file path of the bert-base-uncased config file\
+  --output_dir path of the output directory \
+  ```
+  
+  ### 3.3 AR-BERT-S:
+  ```
+  cd ./ar-bert-s/
+  ```
+  
+  
   
   
 
