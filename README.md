@@ -1,6 +1,10 @@
 # AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations
 Codebase for our WWW'22 paper: "AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations"
 
+<p align="center">
+    <img src="sysarch2.png" height="400"/>
+</p>
+
 ## Requirement:
 * Python 3.6.8
 * Tensorflow-gpu 1.15.0 (See suitable tensorflow 1.x GPU version based on your system CUDA: https://www.tensorflow.org/install/source#gpu)
