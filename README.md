@@ -129,7 +129,26 @@ Go to folder /src/alsc/
   --train_file_path path of the training data \
   --output_dir path of the output directory \
   --ds_name laptop/rest/twitter \
+  ```
   
+  ### 3.5 AR-BERT-idd:
+  ```
+  cd ./ar-bert-idd/
+  python bert_gs_e_probe_main.py \
+  --data_dir path of raw data directory(.xml files)
+  --cluster_embedding_fp path of cluster graph embedding \
+  --bert_pretrained_embedding_fp node i, j, k embedding file path (train data) \
+  --bert_pretrained_embedding_fp_test node i, j, k embedding file path (test data) \
+  --dataset_name laptop \
+  --bert_config_file bert_config.json file path \
+  --task_name semeval2014-atsc \
+  --vocab_file vocab.txt file path \
+  --output_dir ./laptop/ \
+  --init_checkpoint bert_model.ckpt file path \
+  --init_checkpoint_graphsage GraphSAGE_best_model.ckpt subgraph embedding model initial checkpoint path \
+  --init_checkpoint_probe laptop_semantic_probe_best_model.ckpt initial sematic probe model path \
+  --do_lower_case --do_train --do_predict --model graphsage_mean --train_prefix path of the entity subgraph  --num_train_epochs 10
+  ```
   
   
   
