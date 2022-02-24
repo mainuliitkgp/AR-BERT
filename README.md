@@ -27,6 +27,7 @@ Go to folder: /src/aspect_to_entity_mapping/
   
 ## 2. Two level aspect entity embediing generation:
 Go to folder: /src/two_level_aspect_entity_embedding_generation/
+
   ### 2.1 Clustering of DBPedia Page-link Knowledge Graph:
   Go to folder: ./kg_clustering/
   #### 2.1.1 For preparing numeric edge list (src, dest) and dictionary entity label --> id and vice-versa from KG:
@@ -41,5 +42,39 @@ Go to folder: /src/two_level_aspect_entity_embedding_generation/
   ```
   python connected_kg_pre_processing_create_edge_tuple_list.py
   ```
+  #### 2.1.4 Clustering of KG using Louvain algorithm:
+  Go to folder: ./kg_clustering/louvain_clustering/
+  See readme there to perform clustering step-by-step. 
+  
+  ### 2.2. Create node id to cluster id and cluster id to list of node ids dictionaries after clustering:
+  ```
+  python create_lovain_dictionary_cluster_id_to_node_list.py
+  ```
+  
+  ### 2.3 Prepare cluster weighted graph and check connectivity: 
+  ```
+  python build_community_graph_and_check_connectivity.py
+  python clusterd_knowledge_graph_statistics.py (to get the graph statistics)
+  ```
+  
+  ### 2.4 Prepare aspect entity subgraph 
+  ```
+  create_entity_graph_for_graphsage.py
+  ```
+  
+  ### 2.5 For cluster graph embedding generation:
+  Go to folder: ./weighted_graphsage/
+  ```
+  python -m weighted_graphsage.unsupervised_train
+  ```
+  
+  ### 2.5 For aspect entity sub-graph embedding generation:
+  Go to folder: ./graphsage/
+  ```
+  python -m graphsage.unsupervised_train --train_prefix path of the entity subgraph --epochs 100 --max_degree maximum node degree of the entity sungraph (varies wrt different dataset)
+  ```
+  
+  
+  
   
 
