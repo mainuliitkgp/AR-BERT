@@ -11,6 +11,9 @@ Codebase for our WWW'22 paper: "AR-BERT: Aspect-relation enhanced Aspect-level S
 * Quadro P5000 Single core GPU (16278MiB)
 * CUDA version: 10.0
 
+## Data:
+Go to folder /data/
+
 ## Usage:
 Please follow the follwing steps sequentially (as mentioned in teh paper also)
 
