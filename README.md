@@ -95,7 +95,7 @@ Go to folder /src/alsc/
   --task_name SemEval2014AtscProcessor \
   --vocab_file path of the bert-base-uncased vocab file\
   --bert_config_file path of the bert-base-uncased config file\
-  --output_dir path of the output directory \
+  --output_dir path of the output directory
   ```
   
   ### 3.3 AR-BERT-S:
@@ -103,6 +103,27 @@ Go to folder /src/alsc/
   cd ./ar-bert-s/
   python run_bert.py
   ```
+  
+  ### 3.4 Incorrect disambiguation detection:
+  ```
+  cd ./incorrect_disambiguation_detection/
+  
+  
+  
+  python prepare_bert_embedding_for_nodes_i_j_k.py \
+  raw_sentence_file_path raw_aspect_file_path \
+  raw_character_start_and_end_index_of-aspect_in_sentence_file_path \
+  bert-base-uncased_vocab_file_path \
+  bert_token_embedding_file_path \
+  entity_sampling_file_path \
+  entity_index_to_list_of_sent_index_file_path \
+  output_dir_path \
+  dataset_name 
+  
+  python semantic_probe.py \
+  --train_file_path path of the training data \
+  --output_dir path of the output directory \
+  --ds_name laptop/rest/twitter \
   
   
   
