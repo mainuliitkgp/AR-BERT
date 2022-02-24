@@ -151,5 +151,17 @@ Go to folder /src/alsc/
   ```
   
   
+## 4. Multi-modal explanation generation: 
+Go to folder /src/multi_modal_explanation_generation/
+```
+python multi_modal_explanation_extraction.py \
+--data_dir path of the raw data directory \
+--dataset_name laptop/rest/twitter \
+--output_dir path of the output directory \
+--vocab_file path of bert-base-uncased vocab.txt file \
+--do_lower_case 
+```
+  
+  
   
 
