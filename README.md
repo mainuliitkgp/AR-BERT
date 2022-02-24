@@ -2,7 +2,7 @@
 Codebase for our WWW'22 paper: "AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations"
 
 <p align="center">
-    <img src="sysarch2.png" height="400"/>
+    <img src="ar-bert_arch.png" height="400"/>
 </p>
 
 ## Requirement:
