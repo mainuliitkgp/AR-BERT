@@ -108,7 +108,12 @@ Go to folder /src/alsc/
   ```
   cd ./incorrect_disambiguation_detection/
   
-  
+  python sampling_entity_embedding_from_graph.py \
+  unique_entity_list_file_path \
+  train_raw_data_file_path \
+  test_raw_data_file_path \
+  dataset_name \
+  10
   
   python prepare_bert_embedding_for_nodes_i_j_k.py \
   raw_sentence_file_path raw_aspect_file_path \
