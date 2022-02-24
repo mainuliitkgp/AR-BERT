@@ -24,4 +24,22 @@ Go to folder: /src/aspect_to_entity_mapping/
   ```
   python wikification_of_input_data.py wikifier_input_data_directory dataset_name(laptop/rest/twitter) mode(train/test) wikifier_output_directory
   ```
+  
+## 2. Two level aspect entity embediing generation:
+Go to folder: /src/two_level_aspect_entity_embedding_generation/
+  ### 2.1 Clustering of DBPedia Page-link Knowledge Graph:
+  Go to folder: ./kg_clustering/
+  #### 2.1.1 For preparing numeric edge list (src, dest) and dictionary entity label --> id and vice-versa from KG:
+  ```
+  python kg_pre_processing_create_edge_tuple_list.py path of the DBPedia Page-link English KG
+  ```
+  #### 2.1.2 For creating SNAP undirected graph and retrieving maximum connected componenet required for next step clustering:
+  ```
+  python dbpedia_pagelink_edge_tuple_list_to_snap_graph.py
+  ```
+  #### 2.1.3 For preparing numeric edge list (src, dest) and dictionary entity label --> id and vice-versa from maximum connected componenet of KG:
+  ```
+  python connected_kg_pre_processing_create_edge_tuple_list.py
+  ```
+  
 
