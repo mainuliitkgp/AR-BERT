@@ -101,6 +101,7 @@ Go to folder /src/alsc/
   ### 3.3 AR-BERT-S:
   ```
   cd ./ar-bert-s/
+  python run_bert.py
   ```
   
   
