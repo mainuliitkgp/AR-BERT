@@ -1,7 +1,7 @@
 # AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations
 Code for our <em>TheWebConf 2022</em> paper: <br>
 Title: [AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations](https://arxiv.org/pdf/2108.11656.pdf) <br>
-Authors: [Sk Mainul Islam](https://www.linkedin.com/in/skmainul/?originalSubdomain=in) and [Sourangshu Bhattacharya](http://cse.iitkgp.ac.in/~sourangshu/)
+Authors: [Sk Mainul Islam](https://mainuliitkgp.github.io/) and [Sourangshu Bhattacharya](http://cse.iitkgp.ac.in/~sourangshu/)
 
 <p align="center">
     <img src="ar-bert_arch.png" height="400"/>
