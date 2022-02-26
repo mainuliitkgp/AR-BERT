@@ -1,19 +1,19 @@
 # AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations
 Code for our <em>TheWebConf 2022</em> paper: <br>
 ["AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations"](https://arxiv.org/pdf/2108.11656.pdf) <br>
-[Sk Mainul Islam] and [Sourangshu Bhattacharya](http://cse.iitkgp.ac.in/~sourangshu/)
+[Sk Mainul Islam](https://www.linkedin.com/in/skmainul/?originalSubdomain=in) and [Sourangshu Bhattacharya](http://cse.iitkgp.ac.in/~sourangshu/)
 
 <p align="center">
     <img src="ar-bert_arch.png" height="400"/>
 </p>
 
-## Requirement:
+## Software Requirements:
 * Python 3.6.8
 * Tensorflow-gpu 1.15.0 (See suitable tensorflow 1.x GPU version based on your system CUDA: https://www.tensorflow.org/install/source#gpu)
 * Spacy 2.3.2
 * Snappy 1.1.7 (http://snap.stanford.edu/snappy/index.html)
 
-## Infrastructure:
+## Hardware Requirements:
 * Quadro P5000 Single core GPU (16278MiB)
 * CUDA version: 10.0
 
