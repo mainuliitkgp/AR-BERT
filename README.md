@@ -1,5 +1,6 @@
 # AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations
-Codebase for our WWW'22 paper: ["AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations"](https://arxiv.org/pdf/2108.11656.pdf)
+Code for our <em>TheWebConf 2022</em> paper: 
+["AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations"](https://arxiv.org/pdf/2108.11656.pdf)
 
 <p align="center">
     <img src="ar-bert_arch.png" height="400"/>
