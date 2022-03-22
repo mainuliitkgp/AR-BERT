@@ -179,11 +179,10 @@ If you use this work, please cite our paper using the following Bibtex tag:
     @article{DBLP:journals/corr/abs-2108-11656,
     author    = {Sk Mainul Islam and
                  Sourangshu Bhattacharya},
-    title     = {Scalable End-to-End Training of Knowledge Graph-Enhanced Aspect Embedding
-                 for Aspect Level Sentiment Analysis},
+    title     = {AR-BERT: Aspect-relation enhanced Aspect-level Sentiment Classification with Multi-modal Explanations},
     journal   = {CoRR},
     volume    = {abs/2108.11656},
-    year      = {2021},
+    year      = {2022},
     url       = {https://arxiv.org/abs/2108.11656},
     eprinttype = {arXiv},
     eprint    = {2108.11656},
